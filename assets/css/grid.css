@@ -57,7 +57,7 @@
 }
 
 /* sm */
-@media not all and (min-width: 640px) {
+@media (min-width: 640px) {
     .sm-c-1 {
         --c: repeat(1, 1fr);
     }
@@ -108,7 +108,7 @@
 }
 
 /* md */
-@media not all and (min-width: 768px) {
+@media (min-width: 768px) {
     .md-c-1 {
         --c: repeat(1, 1fr);
     }
@@ -159,52 +159,52 @@
 }
 
 /* lg */
-@media not all and (min-width: 1024px) {
-    .md-c-1 {
+@media (min-width: 1024px) {
+    .lg-c-1 {
         --c: repeat(1, 1fr);
     }
 
-    .md-c-2 {
+    .lg-c-2 {
         --c: repeat(2, 1fr);
     }
 
-    .md-c-3 {
+    .lg-c-3 {
         --c: repeat(3, 1fr);
     }
 
-    .md-c-4 {
+    .lg-c-4 {
         --c: repeat(4, 1fr);
     }
 
-    .md-c-5 {
+    .lg-c-5 {
         --c: repeat(5, 1fr);
     }
 
-    .md-c-6 {
+    .lg-c-6 {
         --c: repeat(6, 1fr);
     }
 
-    .md-c-7 {
+    .lg-c-7 {
         --c: repeat(7, 1fr);
     }
 
-    .md-c-8 {
+    .lg-c-8 {
         --c: repeat(8, 1fr);
     }
 
-    .md-c-9 {
+    .lg-c-9 {
         --c: repeat(9, 1fr);
     }
 
-    .md-c-10 {
+    .lg-c-10 {
         --c: repeat(10, 1fr);
     }
 
-    .md-c-11 {
+    .lg-c-11 {
         --c: repeat(11, 1fr);
     }
 
-    .md-c-12 {
+    .lg-c-12 {
         --c: repeat(12, 1fr);
     }
 }
