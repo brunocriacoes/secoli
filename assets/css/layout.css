@@ -94,10 +94,23 @@ body {
     padding: 8px 22px;
     border-radius: 48px;
     margin-left: 16px;
+    margin-top: 16px;
+    display: block;
+
+    @media (min-width: 1024px) {
+        display: inline-block;
+        margin-top: 0;
+    }
+
 }
 
 .header__bg {
     background-color: var(--cor-5);
+    display: none;
+
+    @media (min-width: 1024px) {
+        display: block;
+    }
 }
 
 .header__logo {
@@ -139,6 +152,10 @@ body {
     outline: none;
 }
 
+.header__input::placeholder {
+    color: var(--cor-7);
+}
+
 .header__input:focus {
     color: var(--cor-7);
 }
@@ -159,4 +176,109 @@ body {
     --c: 160px 1fr 300px;
     align-items: center;
     padding: var(--long-space) 0;
+
+}
+
+.grid__menu__mobile {
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    align-items: center;
+    min-height: 48px;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        display: none;
+
+    }
+}
+
+.category__bg {
+    background-color: var(--cor-6);
+
+}
+
+.category__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    height: 80px;
+}
+
+.category__list i {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 22px;
+}
+
+.category__list>li {
+    position: relative;
+    height: 80px;
+
+
+}
+
+.category__list>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.category__list>li>ul {
+    background-color: var(--cor-5);
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1300px;
+    position: absolute;
+    top: 80px;
+    padding: 100px 32px;
+    padding-right: 200px;
+    border-bottom: 4px solid var(--cor-6);
+    z-index: 99;
+    display: none;
+
+}
+
+.category__list>li:hover>ul {
+    display: grid;
+}
+
+.category__list>li>ul>li {}
+
+.category__list>li>ul>span {
+    position: absolute;
+    top: 16px;
+    left: 2%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    width: 96%;
+
+}
+
+.category__list>li>ul>a {
+    position: absolute;
+    bottom: 16px;
+    left: 2%;
+    width: 96%;
+    text-decoration: none;
+    color: var(--cor-2);
+    font-weight: bold;
+}
+
+.category__list>li>ul>img {
+    position: absolute;
+    bottom: 16px;
+    right: 2%;
+    width: 15%;
+}
+
+.category__list>li>ul>li>a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
 }
