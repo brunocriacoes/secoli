@@ -10,6 +10,10 @@
     color: var(--cor-7);
 }
 
+.text__black {
+    color: var(--cor-6);
+}
+
 body {
     font-family: var(--font);
 }
@@ -241,7 +245,6 @@ body {
     border-bottom: 4px solid var(--cor-6);
     z-index: 99;
     display: none;
-
 }
 
 .category__list>li:hover>ul {
@@ -281,4 +284,51 @@ body {
     text-decoration: none;
     list-style: none;
     color: #000000;
+}
+
+.iten__bg__banner {
+    background-image: url(../images/banner.png);
+    width: 100%;
+    min-height: 574px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.iten__bg__banner .title {
+    font-size: 75px;
+
+}
+
+.iten__bg__banner .text {
+    font-size: 32px;
+
+}
+
+.personalizados__bg {
+    padding: var(--long-space) 0;
+}
+
+.personalizados__bg>.container>.title {
+    color: var(--cor-2);
+
+}
+
+.personalizados__bg .title {
+    font-size: 50px;
+    line-height: 48px;
+}
+
+.personalizados__bg .text {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.personalizados__img img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
 }
