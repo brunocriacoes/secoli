@@ -437,3 +437,70 @@ body {
     align-items: center;
     min-height: 500px;
 }
+
+.contact__bg {
+    padding: 75px 16px;
+}
+
+.btn__black {
+    color: #000000;
+    background-color: var(--cor-5);
+}
+
+.contact__bg .title {
+    color: #ffffff;
+}
+
+.contact__bg .text {
+    color: #ffffff;
+}
+
+.contact__btn {
+    text-align: right;
+
+}
+
+.dialog__bg {
+
+    width: 700px;
+    max-width: 90vw;
+    padding: 36px;
+    border: 1px solid #eeeeee;
+    border-radius: 16px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.dialog__lb {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    border-bottom: 1px solid var(--cor-7);
+    min-height: 48px;
+    line-height: 48px;
+    align-items: center;
+    color: var(--cor-7);
+}
+
+.dialog__lb input {
+    outline: none;
+    width: 100%;
+}
+
+.dialog__lb textarea {
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.text__right {
+    text-align: right;
+}
+
+.dialog__bg .text {
+    color: #000000;
+}
