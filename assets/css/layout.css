@@ -396,7 +396,7 @@ body {
     justify-content: center;
 }
 
-.card__profile {
+.card__profile__iten {
     background-color: var(--cor-5);
     border-radius: 8px;
     align-items: center;
@@ -404,7 +404,7 @@ body {
     padding: 32px;
 }
 
-.card__profile img {
+.card__profile__iten img {
     border-radius: 100%;
     width: 116px;
     height: 116px;
@@ -412,21 +412,21 @@ body {
     object-fit: cover;
 }
 
-.card__profile p {
+.card__profile__iten p {
     font-size: var(--fs-3);
 
 }
 
-.card__profile p span i {
+.card__profile__iten p span i {
     font-weight: lighter;
 }
 
-.card__profile p strong {
+.card__profile__iten p strong {
     color: var(--cor-2);
 
 }
 
-.card__profile p i {
+.card__profile__iten p i {
     font-size: 12px;
 
 }
@@ -503,4 +503,51 @@ body {
 
 .dialog__bg .text {
     color: #000000;
+}
+
+.social__link {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social__post {
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid var(--cor-7);
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.social__post>img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left bottom;
+
+}
+
+.social__post p {
+    color: #000000;
+}
+
+.social_desc {
+    display: flex;
+    gap: 16px;
+    padding: 0 8px;
+    align-items: center;
+    height: 90px;
+}
+
+.social_desc>img {
+    height: 22px;
+
 }
