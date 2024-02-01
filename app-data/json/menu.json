@@ -1,0 +1,306 @@
+{
+    "menu": [
+      {
+        "id": 251,
+        "label": "Bolsas e Malas",
+        "link": "http://www.secoli.com.br/brindes/bolsas-e-malas",
+        "color": "#ff0000",
+        "subcategories": []
+      },
+      {
+        "id": 229,
+        "label": "Carteiras",
+        "link": "http://www.secoli.com.br/brindes/carteiras",
+        "color": "#00ff00",
+        "subcategories": [
+          {
+            "label": "Carteira com Alça",
+            "link": "http://www.secoli.com.br/brindes/carteiras/Carteira-com-alca"
+          },
+          {
+            "label": "Carteira Slim",
+            "link": "http://www.secoli.com.br/brindes/carteiras/Carteira-Slim"
+          },
+          {
+            "label": "Porta Cartão",
+            "link": "http://www.secoli.com.br/brindes/carteiras/Porta-Cartao"
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "label": "Coleções",
+        "link": "http://www.secoli.com.br/brindes/colecoes",
+        "color": "#0000ff",
+        "subcategories": [
+          {
+            "label": "BASIC",
+            "link": "http://www.secoli.com.br/brindes/colecoes/BASIC"
+          },
+          {
+            "label": "LINHA TREVO",
+            "link": "http://www.secoli.com.br/brindes/colecoes/LINHA-TREVO"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "label": "Embalagens",
+        "link": "http://www.secoli.com.br/brindes/embalagens",
+        "color": "#ff00ff",
+        "subcategories": [
+          {
+            "label": "Caixas",
+            "link": "http://www.secoli.com.br/brindes/embalagens/Caixas"
+          },
+          {
+            "label": "Sacos",
+            "link": "http://www.secoli.com.br/brindes/embalagens/Sacos"
+          },
+          {
+            "label": "Tags",
+            "link": "http://www.secoli.com.br/brindes/embalagens/Tags"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "label": "Escritório",
+        "link": "http://www.secoli.com.br/brindes/escritorio",
+        "color": "#ffff00",
+        "subcategories": [
+          {
+            "label": "Agenda",
+            "link": "http://www.secoli.com.br/brindes/escritorio/Agenda-103"
+          },
+          {
+            "label": "Bloco e Caderno",
+            "link": "http://www.secoli.com.br/brindes/escritorio/Bloco-e-Caderno-88"
+          },
+          {
+            "label": "Moleskine",
+            "link": "http://www.secoli.com.br/brindes/escritorio/Moleskine-85"
+          },
+          {
+            "label": "Organizador de Mesa",
+            "link": "http://www.secoli.com.br/brindes/escritorio/Organizador-de-Mesa-89"
+          },
+          {
+            "label": "Pasta",
+            "link": "http://www.secoli.com.br/brindes/escritorio/Pasta-105"
+          }
+        ]
+      },
+      {
+        "id": 176,
+        "label": "Nécessaires",
+        "link": "http://www.secoli.com.br/brindes/necessaires",
+        "color": "#00ffff",
+        "subcategories": [
+          {
+            "label": "COM ALÇA",
+            "link": "http://www.secoli.com.br/brindes/necessaires/COM-ALCA"
+          },
+          {
+            "label": "ESTOJOS",
+            "link": "http://www.secoli.com.br/brindes/necessaires/ESTOJOS"
+          },
+          {
+            "label": "FRASQUEIRAS",
+            "link": "http://www.secoli.com.br/brindes/necessaires/FRASQUEIRAS"
+          },
+          {
+            "label": "ORGANIZADORAS",
+            "link": "http://www.secoli.com.br/brindes/necessaires/ORGANIZADORAS"
+          },
+          {
+            "label": "PORTA PINCEL",
+            "link": "http://www.secoli.com.br/brindes/necessaires/PORTA-PINCEL"
+          },
+          {
+            "label": "SEM ALÇA",
+            "link": "http://www.secoli.com.br/brindes/necessaires/SEM-ALCA"
+          },
+          {
+            "label": "SLIM",
+            "link": "http://www.secoli.com.br/brindes/necessaires/SLIM"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "label": "Novos",
+        "link": "http://www.secoli.com.br/brindes/Novos",
+        "color": "#ff8000",
+        "subcategories": []
+      },
+      {
+        "id": 199,
+        "label": "Para Campanhas",
+        "link": "http://www.secoli.com.br/brindes/para-campanhas",
+        "color": "#8000ff",
+        "subcategories": [
+          {
+            "label": "Dia da Secretária",
+            "link": "http://www.secoli.com.br/brindes/para-campanhas/Dia-da-Secretaria"
+          },
+          {
+            "label": "Dia das Mulheres",
+            "link": "http://www.secoli.com.br/brindes/para-campanhas/Dia-das-Mulheres"
+          },
+          {
+            "label": "Dia do Médico",
+            "link": "http://www.secoli.com.br/brindes/para-campanhas/Dia-do-Medico"
+          },
+          {
+            "label": "Fim de Ano",
+            "link": "http://www.secoli.com.br/brindes/para-campanhas/Fim-de-Ano"
+          },
+          {
+            "label": "Outubro Rosa",
+            "link": "http://www.secoli.com.br/brindes/para-campanhas/Outubro-Rosa"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "label": "Sacola",
+        "link": "http://www.secoli.com.br/brindes/sacola",
+        "color": "#0080ff",
+        "subcategories": []
+      },
+      {
+        "id": 16,
+        "label": "Tecnologia",
+        "link": "http://www.secoli.com.br/brindes/tecnologia",
+        "color": "#ff0080",
+        "subcategories": [
+          {
+            "label": "Kit Tecnologia",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Kit-Tecnologia-136"
+          },
+          {
+            "label": "Mouse Pad",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Mouse-Pad-17"
+          },
+          {
+            "label": "Pen Drive",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Pen-Drive-23"
+          },
+          {
+            "label": "Porta Notebook",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Porta-Notebook-20"
+          },
+          {
+            "label": "Porta Tablet",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Porta-Tablet-18"
+          },
+          {
+            "label": "Acessório",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Acessorio-22"
+          },
+          {
+            "label": "Porta Celular",
+            "link": "http://www.secoli.com.br/brindes/tecnologia/Porta-Celular"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "label": "Uso Diário",
+        "link": "http://www.secoli.com.br/brindes/uso-diario",
+        "color": "#ff8040",
+        "subcategories": [
+          {
+            "label": "Higiene Pessoal",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Higiene-Pessoal"
+          },
+          {
+            "label": "Necessaire e Estojo",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Necessaire-e-Estojo-36"
+          },
+          {
+            "label": "Sacola e Bolsa",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Sacola-e-Bolsa-142"
+          },
+          {
+            "label": "Squeeze",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Squeeze"
+          },
+          {
+            "label": "Utilidade",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Utilidade-43"
+          },
+          {
+            "label": "Caneca e Copo",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Caneca-e-Copo"
+          },
+          {
+            "label": "Carteira",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Carteira"
+          },
+          {
+            "label": "Chaveiro",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Chaveiro"
+          },
+          {
+            "label": "COVID-19",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/COVID-19"
+          },
+          {
+            "label": "Lazer e Anti-stress",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Lazer-e-Anti-stress-35"
+          },
+          {
+            "label": "Linha Automotiva",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Linha-Automotiva"
+          },
+          {
+            "label": "Linha Cozinha",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Linha-Cozinha"
+          },
+          {
+            "label": "Porta Cartão",
+            "link": "http://www.secoli.com.br/brindes/uso-diario/Porta-Cartao"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "label": "Viagem",
+        "link": "http://www.secoli.com.br/brindes/viagem",
+        "color": "#8040ff",
+        "subcategories": [
+          {
+            "label": "Itens de Viagem",
+            "link": "http://www.secoli.com.br/brindes/viagem/Itens-de-Viagem-56"
+          },
+          {
+            "label": "Mala e Mochila",
+            "link": "http://www.secoli.com.br/brindes/viagem/Mala-e-Mochila-57"
+          },
+          {
+            "label": "Porta Passaporte",
+            "link": "http://www.secoli.com.br/brindes/viagem/Porta-Passaporte"
+          },
+          {
+            "label": "Tag de Bagagem",
+            "link": "http://www.secoli.com.br/brindes/viagem/Tag-de-Bagagem-54"
+          },
+          {
+            "label": "Kits Viagem",
+            "link": "http://www.secoli.com.br/brindes/viagem/Kits-Viagem-61"
+          },
+          {
+            "label": "Necessaire",
+            "link": "http://www.secoli.com.br/brindes/viagem/Necessaire-55"
+          },
+          {
+            "label": "Térmica",
+            "link": "http://www.secoli.com.br/brindes/viagem/Termica-53"
+          }
+        ]
+      }
+    ]
+  }
+  
