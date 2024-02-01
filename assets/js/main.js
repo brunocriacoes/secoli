@@ -141,3 +141,25 @@ new Swiper('.card__profile', {
         }
     }
 });
+
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY > 50) {
+        document.querySelector('.header__none').style.display = 'none';
+        document.querySelector('.header__btn__black').style.display = 'none';
+        document.querySelector('.js__space__remove').style.display = 'none';
+
+        const contatos = document.querySelector('.header__search__contact');
+
+        contatos.classList.add('contatos-empilhados');
+    } else {
+        document.querySelector('.header__none').style.display = 'block';
+        document.querySelector('.header__btn__black').style.display = 'block';
+        document.querySelector('.js__space__remove').style.display = 'block';
+
+        const contatos = document.querySelector('.header__search__contact');
+        contatos.classList.remove('contatos-empilhados');
+
+    }
+});
+
