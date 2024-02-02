@@ -49,27 +49,27 @@
 </head>
 
 <body>
-    <div app-data="./db.json">
+    <div app-data="./media/db.json">
         <div app-include="./header.html"></div>
-
+        <span class="space"></span>
         <div class="full">
             <div class="container">
 
-                <div>
-                    <a href="./index.html">Home</a>
+                <div class="menu__category">
+                    <a class="text" href="./index.html">Home</a>
                     <span>/</span>
-                    <a href="./produtos.html">Produtos</a>
+                    <a class="text" href="./produtos.html">Produtos</a>
                     <span>/</span>
-                    <a href="./produtos.html?c=Categoria X">Categoria X</a>
+                    <a class="text" href="./produtos.html?c=Categoria X">Categoria X</a>
                     <span>/</span>
                 </div>
 
-                <h1>
+                <h3 class="title">
                     Categoria X
-                </h1>
+                </h3>
 
                 <div class="grid_produtos">
-                    <div>
+                    <div class="categorias">
                         <div>
                             <strong>CATEGORIAS</strong>
                             <i class="fa-solid fa-minus"></i>
@@ -108,21 +108,23 @@
                         </ul>
                     </div>
                     <div>
-                        <div class="grid c-1 lg-c-4">
-                            <div>
-                                <a href="">
-                                    <img src="" alt="">
-                                </a>
-                                <small>
-                                    AGE-1901A
-                                </small>
-                                <strong>
-                                    Bolsa Feminina em couro com alça duas cores
-                                </strong>
-                                <a href="">
-                                    <i class="fa-solid fa-cart-plus"></i>
-                                    <span>ORÇAR ESTE PRODUTO</span>
-                                </a>
+                        <div class="produtos">
+                            <div class="grid c-1 lg-c-4" >
+                                <div class="produto" app-repeat="produtos">
+                                    <a href="">
+                                        <img src="./media/catalogo/AGE-1901A.jpg" alt="">
+                                    </a>
+                                    <small>
+                                        AGE-1901A
+                                    </small>
+                                    <strong>
+                                        Bolsa Feminina em couro com alça duas cores
+                                    </strong>
+                                    <a class="btn gradient-1" href="">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        <span>ORÇAR ESTE PRODUTO</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -156,28 +158,31 @@
             </div>
         </div>
 
-        <div class="full">
+        <div class="full tecnologia__bg">
             <div class="container">
                 <div class="grid c-1 lg-c-2">
                     <div>
-                        <h2>
+                        <h2 class="title">
                             Tecnologia, <br>
                             modernidade e <br>
                             pessoas.
                         </h2>
-                        <p>
+                        <span class="space"></span>
+                        <p class="text">
                             Conquistado o equilíbrio entre a mais moderna tecnologia e o cuidado da manufatura
                             artesanal, a Secoli se diferencia também por sua versatilidade e especialidade em criar
                             produtos personalizados exclusivos
                         </p>
-                        <a href="./que-somos.html">
+                        <span class="long-space"></span>
+                        <span class="long-space"></span>
+                        <a class="btn gradient-1" href="./que-somos.html">
                             CONHEÇA A SECOLI
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <span class="long-space"></span>
         <div class="full gradient-1 contact__bg">
             <div class="container">
                 <div class="grid c-1 lg-c-2 v-center">
