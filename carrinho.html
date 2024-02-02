@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/forms.css">
     <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
     <title>Secoli | Brindes e Promocionais</title>
     <meta property="og:title" content="Secoli | Brindes e Promocionais" />
@@ -49,107 +50,126 @@
 </head>
 
 <body>
-    <div app-data="./db.json">
+    <div app-data="./media/db.json">
         <div app-include="./header.html"></div>
 
-        <div class="full">
-            <div class="container">
-                <p> 
-                    <b>Atenção:</b> 
-                    Caso queira alterar a quantidade, digite o valor no campo correspondente.
-                </p>
-            </div>
-        </div>
+        <div class="bg__card">
+            <div class="long-space"></div>
 
-        <div class="full">
-            <div class="container">
-                <div>
+            <div class="full">
+                <div class="container">
+                    <p class="danger"> 
+                        <b>Atenção:</b> 
+                        Caso queira alterar a quantidade, digite o valor no campo correspondente.
+                    </p>
+                </div>
+            </div>
+            <div class="space"></div>
+    
+            <div class="full">
+                <div class="container">
                     <div>
-                        <img src="" alt="">
-                        <div>
-                            <small>
-                                <b>Categoria</b> - <span>linha trevo</span>
-                            </small>
-                            <h3>
-                                Nome do produto
-                            </h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia culpa at?
-                            </p>
-                            <p>
-                                <b>REF</b> - <span>#XFF-55</span>
-                                <b>COR</b> - <span>preta</span>
-                            </p>
-                        </div>
-                        <div>
-                            <label>
-                                <b>QTA-1</b>
-                                <input type="number" min="1" value="1">
-                            </label>
-                            <button>
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </button>
-                        </div>
-                        <div>
-                            <button>
-                                <i class="fa-regular fa-trash-can"></i>
-                            </button>
+                        <div class="item__in__cart">
+                            <img class="item__in__cart__img" src="" alt="">
+                            <div>
+                                <small>
+                                    <b>Categoria</b> - <span>linha trevo</span>
+                                </small>
+                                <h3>
+                                    Nome do produto
+                                </h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia culpa at?
+                                </p>
+                                <p>
+                                    <b>REF</b> - <span>#XFF-55</span>
+                                    <b>COR</b> - <span>preta</span>
+                                </p>
+                            </div>
+                            <div class="grid c-1 lg-c-2">
+                                <label class="item__in__cart__input">
+                                    <b>QTA-1</b>
+                                    <input type="number" min="1" value="1">
+                                </label>
+                                <button class="item__in__cart__add">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <span>Adicionar QTA</span>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="item__in__cart__trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="full">
-            <div class="container">
-                <h2>
-                    Preencha com seus dados para solicitar um orçamento
-                </h2>
-                <form action="javascript:void(0)" method="post">
-                    <div>
-                        <div>
-                            <label>
-                                <span>NOME</span>
-                                <input type="text" placeholder="digite">
-                            </label>
-                            <label>
-                                <span>TELEFONE</span>
-                                <input type="text" placeholder="digite">
-                            </label>
-                            <label>
-                                <span>EMAIL</span>
-                                <input type="text" placeholder="digite">
-                            </label>
-                            <label>
-                                <span>CNPJ</span>
-                                <input type="text" placeholder="digite">
-                            </label>
-                            <label>
-                                <span>EMPRESA</span>
-                                <input type="text" placeholder="digite">
-                            </label>
+    
+            <div class="full">
+                <div class="container box__invoice">
+                    <div class="long-space"></div>
+                    <h2 class="text-center">
+                        Preencha com seus dados para solicitar um orçamento
+                    </h2>
+                    <div class="space"></div>
+                    <form action="javascript:void(0)" method="post">
+                        <div class="grid c-1 lg-c-2">
+                            <div>
+                                <label class="input__theme">
+                                    <span>NOME</span>
+                                    <input type="text" placeholder="digite">
+                                </label>
+                                <div class="space"></div>
+                                <label class="input__theme">
+                                    <span>TELEFONE</span>
+                                    <input type="text" placeholder="digite">
+                                </label>
+                                <div class="space"></div>
+                                <label class="input__theme">
+                                    <span>EMAIL</span>
+                                    <input type="text" placeholder="digite">
+                                </label>
+                                <div class="space"></div>
+                                <label class="input__theme">
+                                    <span>CNPJ</span>
+                                    <input type="text" placeholder="digite">
+                                </label>
+                                <div class="space"></div>
+                                <label class="input__theme">
+                                    <span>EMPRESA</span>
+                                    <input type="text" placeholder="digite">
+                                </label>
+                            </div>
+                            <label class="input__theme">
+                                <textarea name="descricao" placeholder="Conte-nos um pouco mais sobre seu projeto..."></textarea>
+                            </label>                            
                         </div>
-                        <textarea name="descricao" placeholder="Conte-nos um pouco mais sobre seu projeto..."></textarea>
-                    </div>
-                    <div>
-                        <button type="reset">
-                            LIMPAR CARRINHO
-                        </button>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-solid fa-plus"></i>
-                            <span>ESCOLHER MAIS PRODUTOS</span>
-                        </a>
-                        <button type="submit">
-                            SOLICITAR ORÇAMENTO
-                        </button>
-                    </div>
-                </form>
+                        <div class="space"></div>
+                        <div class="grid c-1 lg-c-3">
+                            <button type="reset" class="btn btn__or">
+                                LIMPAR CARRINHO
+                            </button>
+                            <a href="./produtos.html" class="btn gradient-1 ">
+                                <i class="fa-solid fa-plus"></i>
+                                <span>ESCOLHER MAIS PRODUTOS</span>
+                            </a>
+                            <button type="submit" class="btn gradient-1 btn__opaco">
+                                SOLICITAR ORÇAMENTO
+                            </button>
+                        </div>
+                    </form>
+                    <div class="long-space"></div>
+                </div>
             </div>
+
+            <div class="long-space"></div>
         </div>
 
         <div app-include="./footer.html"></div>
     </div>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/cart.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
