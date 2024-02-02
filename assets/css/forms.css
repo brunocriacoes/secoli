@@ -214,9 +214,10 @@ h6 {
     font-size: 18px;
     border-left: 1px solid #CCC;
     height: 48px;
-    padding-left: 16px; 
+    padding-left: 16px;
     background-color: transparent;
 }
+
 .item__in__cart__add {
     background-color: #05f;
     color: #FFF;
@@ -230,5 +231,98 @@ h6 {
     gap: 8px;
     text-transform: uppercase;
     font-weight: bolder;
+}
 
+.about__banner {
+    background-image: url(../../media/paginas/sobre-nos/banner.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.about__banner .grid {
+    min-height: 500px;
+    align-items: center;
+}
+
+.about__banner .text {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #0001;
+}
+
+.w-2 {
+    columns: 2;
+    color: #CCC;
+    line-height: 22px;
+}
+
+.slider__blog {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__blog__next {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+}
+
+.slider__blog__pev {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+
+.slide__blog__iten {
+    border-radius: 16px;
+    box-shadow: 0 0 6px #0001;
+    height: 100%;
+
+}
+
+.slide__blog__iten img {
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slide__blog__iten h2,
+.slide__blog__iten p,
+.slide__blog__iten a {
+    margin: 0 48px;
+}
+
+.title__commnet {
+    display: block;
+    background-image: url(../../media/paginas/sobre-nos/balao.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    text-align: center;
+}
+
+.text__commnet {
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7px #0001;
+    min-height: 300px;
+    padding: 48px;
 }

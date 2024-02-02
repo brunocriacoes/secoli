@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/forms.css">
     <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
     <title>Secoli | Brindes e Promocionais</title>
     <meta property="og:title" content="Secoli | Brindes e Promocionais" />
@@ -49,23 +50,25 @@
 </head>
 
 <body>
-    <div app-data="./db.json">
+    <div app-data="./media/db.json">
         <div app-include="./header.html"></div>
 
-        <div class="full">
+        <div class="full about__banner">
             <div class="container">
                 <div class="grid c-1 lg-c-2">
                     <div>
-                        <h1>
+                        <h1 class="title">
                             Secoli Brindes,
                             conectando empresas, parceiros e pessoas.
                         </h1>
-                        <p>
+                        <div class="space"></div>
+                        <p class="text">
                             Priorizamos plena satisfação de seus clientes através do compromisso com o 
                             atendimento personalizado, a excelência na 
                             qualidade de seus produtos e o respeito com o cumprimento dos prazos acordados.
                         </p>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <div class="space"></div>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="btn gradient-1">
                             SOLICITAR UM ORÇAMENTO
                         </a>
                     </div>
@@ -75,44 +78,48 @@
 
         <div class="full">
             <div class="container">
+                <div class="long-space"></div>
                 <div class="slider__blog">
-                    <div class="slider__blog__inner">
-                        <div class="lider__blog__iten">
-                            <img src="" alt="">
-                            <h2>
-                                Sustentabilidade, faz parte da nossa missão.
+                    <div class="slider__blog__inner swiper-wrapper">
+                        <div class="slide__blog__iten swiper-slide" app-repeat="blog">
+                            <img src="{{image}}" alt="{{title}}">
+                            <div class="space"></div>
+                            <h2 class="title">
+                                {{title}}
                             </h2>
-                            <p>
-                                Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos 
-                                e revolucionários são cotidianamente trazidos à luz, nos perguntamos: 
-                                será que as respostas, ou, pelo menos, parte delas, para os imensos 
-                                problemas ecológicos que assolam o planeta não se encontram, talvez, 
-                                em conceitos e atitudes muito mais simples do que supomos?
+                            <p class="text">
+                                {{description}}
                             </p>
-                            <a href="">
+                            <div class="space"></div>
+                            <a href="{{link}}" class="btn gradient-1">
                                 VEJA MAIS
                             </a>
+                            <div class="space"></div>
                         </div>
                     </div>
-                    <div>
+                    <div class="slider__blog__pev">
                         <i class="fa-solid fa-angle-left"></i>
                     </div>
-                    <div>
+                    <div class="slider__blog__next">
                         <i class="fa-solid fa-angle-right"></i>
                     </div>
                 </div>
+                <div class="long-space"></div>
             </div>
         </div>
 
         <div class="full">
             <div class="container">
-                <small class="text-center">
+                <div class="space"></div>
+                <div class="text text-center">
                     Pioneirismo e comprometimento
-                </small>
-                <h2 class="text-center">
-                    Especializada em criar produtos personalizados e exclusivos 
+                </div>
+                <div class="space"></div>
+                <h2 class="title text-center">
+                    Especializada em criar produtos <br> personalizados e exclusivos 
                 </h2>
-                <div>
+                <div class="space"></div>
+                <div class="w-2">
                     <p>
                         Além de ter conquistado o equilíbrio entre a mais moderna tecnologia e o cuidado da manufatura artesanal, 
                         a Secoli se diferencia também por sua versatilidade e especialidade em criar produtos personalizados exclusivos, 
@@ -131,41 +138,44 @@
 
         <div class="full">
             <div class="container">
+                <div class="long-space"></div>
                 <div class="grid c-1 lg-c-3">
                     <div>
-                        <h3>
+                        <h3 class="title__commnet">
                             NOSSA <br> MISSÃO
                         </h3>
-                        <p>
+                        <p class="text__commnet">
                             “Manter um ambiente de prosperidade material onde possamos desenvolver o potencial 
                             humano através da criação, confecção e comercialização de produtos com alto padrão de 
                             qualidade e preço justo, priorizando, o respeito ao cliente interno, externo e ao meio ambiente.”
                         </p>
                     </div>
                     <div>
-                        <h3>
+                        <h3 class="title__commnet">
                             NOSSA <br> VISÃO
                         </h3>
-                        <p>
+                        <p class="text__commnet">
                             “Nos tornar a empresa referência em Qualidade, Criatividade e 
                             Sustentabilidade no mercado de produtos promocionais.”
                         </p>
                     </div>
                     <div>
-                        <h3>
+                        <h3 class="title__commnet">
                             NOSSOS <br> VALORES
                         </h3>
-                        <p>
+                        <p class="text__commnet">
                             “Equilíbrio, Ética, Inovação, Justiça e Sustentabilidade.”
                         </p>
                     </div>
                 </div>
+                <div class="long-space"></div>
             </div>
         </div>
 
         <div app-include="./footer.html"></div>
     </div>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/cart.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
