@@ -15223,7 +15223,7 @@
     "banner": [
         {
             "img": "banner-1.png",
-            "title": "Crie seu brinde personalizado",
+            "title": "Crie seu brinde <br>  personalizado",
             "description": "para combinar com seus produtos",
             "link": "./sobre.html"
         },
