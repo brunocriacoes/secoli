@@ -756,6 +756,15 @@ body {
     text-align: center;
 }
 
+.btn__orcamento {
+    min-width: 50px;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    gap: 8px;
+    height: 40px;
+}
+
 .grid_produtos .produtos .produto img {
     width: 200px;
     height: auto;
@@ -793,6 +802,18 @@ body {
     overflow: hidden;
 }
 
+.expand__produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.expand__produtos a {
+    text-decoration: none;
+}
 /* 
 .pagination__destaque {
     position: absolute;
