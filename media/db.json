@@ -15274,14 +15274,6 @@
             "sku": "NES-1908A"
         },
         {
-            "slug": "Novos",
-            "link": "Faixa-para-Cabelo-FAC-1925-11011",
-            "img": "https:\/\/www.secoli.com.br\/img\/splash\/NOVO-3.png",
-            "title": "Faixa para Cabelo",
-            "cat_prod": "Novos",
-            "sku": "FAC-1925"
-        },
-        {
             "slug": "Outubro-Rosa",
             "link": "Necessaire-c-Alca-NES-1910A-10820",
             "img": "Necessaire-10820-112612.jpg",
@@ -15346,42 +15338,50 @@
             "office": "Líder de Produtos Globais"
         }
     ],
-    "blog" : [
+    "blog": [
         {
-            "title" : "Sustentabilidade, faz parte da nossa missão.",
-            "image" : "./media/paginas/sobre-nos/post-1.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Sustentabilidade, faz parte da nossa missão.",
+            "image": "./media/paginas/sobre-nos/post-1.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         },
         {
-            "title" : "Conheça a nossa estrutura.",
-            "image" : "./media/paginas/sobre-nos/post-2.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Conheça a nossa estrutura.",
+            "image": "./media/paginas/sobre-nos/post-2.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         },
         {
-            "title" : "Sustentabilidade, faz parte da nossa missão.",
-            "image" : "./media/paginas/sobre-nos/post-1.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Sustentabilidade, faz parte da nossa missão.",
+            "image": "./media/paginas/sobre-nos/post-1.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         },
         {
-            "title" : "Conheça a nossa estrutura.",
-            "image" : "./media/paginas/sobre-nos/post-2.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Conheça a nossa estrutura.",
+            "image": "./media/paginas/sobre-nos/post-2.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         },
         {
-            "title" : "Sustentabilidade, faz parte da nossa missão.",
-            "image" : "./media/paginas/sobre-nos/post-1.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Sustentabilidade, faz parte da nossa missão.",
+            "image": "./media/paginas/sobre-nos/post-1.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         },
         {
-            "title" : "Conheça a nossa estrutura.",
-            "image" : "./media/paginas/sobre-nos/post-2.png",
-            "description" : "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
-            "link" : "./page.html"
+            "title": "Conheça a nossa estrutura.",
+            "image": "./media/paginas/sobre-nos/post-2.png",
+            "description": "Em uma época que se fala tanto de sustentabilidade, e que tantos conceitos novos e revolucionários são cotidianamente trazidos à luz, nos perguntamos: será que as respostas, ou, pelo menos, parte delas, para os imensos problemas ecológicos que assolam o planeta não se encontram, talvez, em conceitos e atitudes muito mais simples do que supomos?",
+            "link": "./page.html"
         }
+    ],
+    "linhas": [
+        { "img":"Porta-Cartao-10417-114115.jpg"},
+        { "img":"Agenda-7681d1-1533567506.jpg"},
+        { "img":"Caderno-AMARELA-902-1508516757.png"},
+        { "img":"PBL-803.jpg"},
+        { "img":"Necessaire-10847-174021.jpg"},
+        { "img":"Porta-documento-7624-141922.jpg"}
     ]
 }
