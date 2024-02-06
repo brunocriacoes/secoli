@@ -11,28 +11,16 @@ function close_contato() {
     dialog.close();
 }
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.banner', {
     direction: 'horizontal',
     loop: true,
+    slidesPerView: 1,
     autoplay: {
         delay: 3000,
     },
-
-    //If we need pagination
     pagination: {
         el: '.swiper-pagination',
     },
-
-    // Navigation arrows
-    // navigation: {
-    //     nextEl: '.swiper-button-next',
-    //     prevEl: '.swiper-button-prev',
-    // },
-
-    // And if we need scrollbar
-    // scrollbar: {
-    //     el: '.swiper-scrollbar',
-    // },
 });
 
 new Swiper('.slide__destaque', {
@@ -106,6 +94,7 @@ new Swiper('.slide__feedback', {
 });
 
 new Swiper('.card__profile', {
+
     direction: 'horizontal',
     loop: true,
     autoplay: {
@@ -116,11 +105,6 @@ new Swiper('.card__profile', {
 
     pagination: {
         el: '.pagination__profile',
-    },
-
-    navigation: {
-        nextEl: '.slide__profile__next',
-        prevEl: '.slide__profile__prev',
     },
 
     breakpoints: {
@@ -148,15 +132,12 @@ window.addEventListener('scroll', function () {
         document.querySelector('.header__none').style.display = 'none';
         document.querySelector('.header__btn__black').style.display = 'none';
         document.querySelector('.js__space__remove').style.display = 'none';
-
         const contatos = document.querySelector('.header__search__contact');
-
         contatos.classList.add('contatos-empilhados');
     } else {
-        document.querySelector('.header__none').style.display = 'block';
-        document.querySelector('.header__btn__black').style.display = 'block';
-        document.querySelector('.js__space__remove').style.display = 'block';
-
+        document.querySelector('.header__none').style.display = 'flex';
+        document.querySelector('.header__btn__black').style.display = 'flex';
+        document.querySelector('.js__space__remove').style.display = 'grid';
         const contatos = document.querySelector('.header__search__contact');
         contatos.classList.remove('contatos-empilhados');
 

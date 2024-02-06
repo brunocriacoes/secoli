@@ -413,3 +413,55 @@ h6 {
         }
     }
 }
+
+.slide__feedback {
+    overflow: hidden;
+    padding: 8px;
+    position: relative;
+}
+
+.slide__feedback .img {
+    width: 100%;
+}
+
+.slide__feedback__next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 50;
+    cursor: pointer;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide__feedback__prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 50;
+    cursor: pointer;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__profile {
+    overflow: hidden;
+}
+
+.pagination__profile {
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+}
+.header__contact {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
