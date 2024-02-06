@@ -163,3 +163,31 @@ window.addEventListener('scroll', function () {
     }
 });
 
+
+document.querySelector('strong').addEventListener('click', function() {
+    var listaCategorias = document.getElementById('listaCategorias');
+    var iconCategorias = document.getElementById('iconCategorias');
+    if (listaCategorias.style.display === 'none') {
+        listaCategorias.style.display = 'block';
+        iconCategorias.classList.replace('fa-plus', 'fa-minus');
+    } else {
+        listaCategorias.style.display = 'none';
+        iconCategorias.classList.replace('fa-minus', 'fa-plus');
+    }
+});
+
+
+document.getElementById('categoriaMae').addEventListener('click', function(event) {
+    event.stopPropagation();
+    var subcategorias = this.querySelector('.subcategorias');
+    var iconCategoriaMae = document.getElementById('iconCategoriaMae');
+    if (subcategorias.style.display === 'none') {
+        subcategorias.style.display = 'block';
+        iconCategoriaMae.classList.replace('fa-plus', 'fa-minus');
+    } else {
+        subcategorias.style.display = 'none';
+        iconCategoriaMae.classList.replace('fa-minus', 'fa-plus');
+    }
+});
+
+

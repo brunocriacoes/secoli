@@ -814,6 +814,10 @@ body {
 .expand__produtos a {
     text-decoration: none;
 }
+
+/* .categorias{
+    display: none;
+} */
 /* 
 .pagination__destaque {
     position: absolute;
