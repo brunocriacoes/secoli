@@ -25,4 +25,3 @@ new Swiper('.slider__blog', {
 // https://picsum.photos
 // https://jsonplaceholder.typicode.com
 
-

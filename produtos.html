@@ -95,7 +95,7 @@
 										duas cores
 									</strong>
 									<span class="space"></span>
-									<a class="btn gradient-1 btn__orcamento" href="./carrinho.html">
+									<a class="btn gradient-1 btn__orcamento"  onclick="return cart.add('{{sku}}', '{{title}}', '{{img}}', '{{sku}}', 'description', 'color', '{{cat_prod}}')" href="./carrinho.html">
 										<i class="fa-solid fa-cart-plus"></i>
 										<span>ORÇAR ESTE PRODUTO</span>
 									</a>
@@ -239,6 +239,7 @@
 		<div app-include="./footer.html"></div>
 	</div>
 	<script src="./assets/js/app.js"></script>
+	<script src="./assets/js/carrinho.js"></script>
 	<script src="./assets/js/main.js"></script>
 </body>
 

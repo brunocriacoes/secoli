@@ -1,9 +1,9 @@
-const _app_data = {}
+var _app_data = {}
 
 async function load_data_app() {
-    const _load_data = document.querySelector('[app-data]')
-    if (_load_data) {
-        const file_name = _load_data.getAttribute("app-data")
+    const _load = document.querySelector('[app-data]')
+    if (_load) {
+        const file_name = _load.getAttribute("app-data")
         const get_data = await (await fetch(file_name)).json()
         return get_data
     }
@@ -71,9 +71,9 @@ function blade(string, dados) {
 }
 
 ; (async () => {
-    const data = await load_data_app()
-    repeat(data)
-    values(data)
+    _app_data = {...(await load_data_app()),..._app_data}
+    repeat(_app_data)
+    values(_app_data)
     includes()
 })()
 

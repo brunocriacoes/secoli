@@ -71,20 +71,20 @@
             <div class="full">
                 <div class="container">
                     <div>
-                        <div class="item__in__cart">
-                            <img class="item__in__cart__img" src="" alt="">
+                        <div class="item__in__cart" app-repeat="cart">
+                            <img class="item__in__cart__img" src="./media/catalogo/{{image}}" alt="">
                             <div>
                                 <small>
-                                    <b>Categoria</b> - <span>linha trevo</span>
+                                    <b>Categoria</b> - <span>{{category}}</span>
                                 </small>
                                 <h3>
-                                    Nome do produto
+                                    {{name}}
                                 </h3>
                                 <p class="text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia culpa at?
                                 </p>
                                 <p>
-                                    <b>REF</b> - <span>#XFF-55</span>
+                                    <b>REF</b> - <span>{{ref}}</span>
                                     <b>COR</b> - <span>preta</span>
                                 </p>
                             </div>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="space"></div>
                         <div class="grid c-1 lg-c-3">
-                            <button type="reset" class="btn btn__or">
+                            <button type="reset" class="btn btn__or" onclick="cart.clear()">
                                 LIMPAR CARRINHO
                             </button>
                             <a href="./produtos.html" class="btn gradient-1 ">
@@ -171,6 +171,7 @@
         <div app-include="./footer.html"></div>
     </div>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/carrinho.js"></script>
     <script src="./assets/js/cart.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>

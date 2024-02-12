@@ -1,3 +1,5 @@
+const cart = new Cart()
+_app_data.cart = cart.allProducts()
 function agendar_contato() {
     const dialog = document.getElementById("favDialog");
     dialog.showModal();
@@ -184,3 +186,4 @@ img_container.addEventListener("mousemove", (e) => {
         img.style.transform = "scale(1)";
     })
 })
+
