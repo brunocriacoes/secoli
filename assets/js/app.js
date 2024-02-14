@@ -10,17 +10,28 @@ async function load_data_app() {
     return {}
 }
 
+function navigationString(stringNavigation) {
+    try {
+        return eval('_app_data.' + stringNavigation);
+    } catch (error) {
+        return undefined;
+    }
+}
+
+
 function repeat(obj) {
     const _repeats = document.querySelectorAll('[app-repeat]')
     Array.from(_repeats).forEach(function ($e) {
         $e.setAttribute('hidden', '')
         let _tmp_name = $e.getAttribute("app-repeat")
-        if (obj[_tmp_name]) {
-            Array.from(obj[_tmp_name]).forEach(c => {
+
+        if (navigationString(_tmp_name)) {
+            Array.from(navigationString(_tmp_name)).forEach((c, i) => {
                 let $copy = document.createElement($e.localName)
                 if ($e.getAttribute("class")) {
                     $copy.setAttribute('class', $e.getAttribute("class"))
                 }
+                c.index = i
                 $copy.innerHTML = blade($e.innerHTML, c)
                 $e.parentNode.append($copy)
             })
@@ -72,6 +83,7 @@ function blade(string, dados) {
 
 ; (async () => {
     _app_data = {...(await load_data_app()),..._app_data}
+    repeat(_app_data)
     repeat(_app_data)
     values(_app_data)
     includes()

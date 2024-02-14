@@ -15,7 +15,7 @@ class Cart {
             category,
             quantity:[
                 {
-                    id:0,
+                    qtaId: 1,
                     value: 1
                 }
             ]
@@ -31,10 +31,28 @@ class Cart {
         return true
     }
 
-    // removerProduto(idProduto) {
-    //   this.produtos = this.produtos.filter(produto => produto.id !== idProduto);
-    //   this.salvarCarrinho();
-    // }
+    addQuantity(id){
+        // document.querySelector('.jsQuantity').innerHTML += '<div>Presunto</div>'
+        this.products = this.products.map(p=>{
+            if(p.id == id){
+                console.log(p.quantity.reverse()[0].qtaId+1)
+                p.quantity.push({
+                    qtaId:p.quantity.reverse()[0].qtaId+1,
+                    value: 1
+                })
+                this.save()
+            }
+            return p;
+        })
+    }
+
+    
+
+    remove(id) {
+      
+      this.products = this.products.filter(product => product.id !== id);
+      this.save();
+    }
 
     // atualizarQuantidade(idProduto, quantidade) {
     //   const produto = this.produtos.find(produto => produto.id === idProduto);
@@ -43,6 +61,8 @@ class Cart {
     //     this.salvarCarrinho();
     //   }
     // }
+
+
 
     save() {
       localStorage.setItem('cart', JSON.stringify(this.products));

@@ -88,18 +88,18 @@
                                     <b>COR</b> - <span>preta</span>
                                 </p>
                             </div>
-                            <div class="grid c-1 lg-c-2">
-                                <label class="item__in__cart__input">
-                                    <b>QTA-1</b>
-                                    <input type="number" min="1" value="1">
+                            <div class="grid c-1 lg-c-2 jsQuantity">
+                                <label class="item__in__cart__input" app-repeat="cart[{{index}}].quantity">
+                                    <b>QTA-{{index}}</b>
+                                    <input type="number" min="1" value="{{value}}">
                                 </label>
-                                <button class="item__in__cart__add">
+                                <button class="item__in__cart__add" onclick="cart.addQuantity('{{ref}}')">
                                     <i class="fa-solid fa-circle-plus"></i>
                                     <span>Adicionar QTA</span>
                                 </button>
                             </div>
                             <div>
-                                <button class="item__in__cart__trash">
+                                <button class="item__in__cart__trash" onclick="cart.remove('{{ref}}')">
                                     <i class="fa-regular fa-trash-can"></i>
                                 </button>
                             </div>
